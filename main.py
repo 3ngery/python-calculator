@@ -9,7 +9,7 @@ def main():
     print("3- MULTIPLY")
     print("4- DIVIDE")
 
-    choice = input("enter choice ( 1 | 2 | 3 | 4 )")
+    choice = input("enter choice  1 | 2 | 3 | 4 >> ")
 
     if choice not in ["1","2","3","4"]:
         print("Bad choice")
@@ -30,4 +30,5 @@ def main():
 
 if __name__ == "__main__" :
     main()
+
 
