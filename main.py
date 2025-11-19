@@ -1,11 +1,11 @@
 #
-from calculator import add , subtract , multiply , divide
+from calculator import add , subtarct , multiply , divide
 
 def main():
     print("==== angery's simple calculator ====")
     print(" choose missod :")
     print("1- ADD")
-    print("2- SUBTRACT")
+    print("2- SUBTARCT")
     print("3- MULTIPLY")
     print("4- DIVIDE")
 
@@ -20,7 +20,7 @@ def main():
     if choice == "1" :
         result = add(num1,num2)
     elif choice == "2":
-        result = subtract(num1,num2)
+        result = subtarct(num1,num2)
     elif choice == "3":
         result = multiply(num1,num2)
     elif choice == "4":
@@ -30,3 +30,4 @@ def main():
 
 if __name__ == "__main__" :
     main()
+
